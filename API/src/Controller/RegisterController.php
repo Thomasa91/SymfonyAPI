@@ -19,10 +19,10 @@ class RegisterController extends AbstractController
     #[Route('/register', name: 'register')]
     public function register(Request $request, UserRepository $userRepo): Response
     {
-        $user_data = $request->toArray();
+        $data = $request->toArray();
         
-        $email = $user_data['email'];
-        $password =$user_data['password'];
+        $email = $data['email'];
+        $password = $data['password'];
 
         if(!validate($email, $password)) {
             return new JsonResponse(["message" => "Wrong credentials"], status: 400);
