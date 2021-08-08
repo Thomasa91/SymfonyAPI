@@ -18,7 +18,7 @@ Dependencies: composer and symfony cli installed
 
 1. Install:<br/>
 cd API<br/> 
-php composer install<br/>
+composer install<br/>
 
 2. To generate the SSL keys run command:<br/> 
 cd API<br/> 
