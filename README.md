@@ -1,6 +1,6 @@
 # About The Project:
 
-API where user is authenticated by JWT token and admin can invalidate token of a specific user.
+Application where user is authenticated by JWT token and admin can invalidate token of a specific user.
 
 
 # Built With:
