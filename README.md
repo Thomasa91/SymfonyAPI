@@ -5,9 +5,9 @@ API where user is authenticated by JWT token and admin can invalidate token of a
 
 # Built With:
 
-Bootstrap5<br/> 
-Vue3<br/> 
-Symfony5<br/>
+* Bootstrap5<br/> 
+* Vue3<br/> 
+* Symfony5<br/>
  
 
 # Installation:
@@ -44,13 +44,12 @@ yarn serve<br/>
 
 ## Database is included with already saved few users for testing:
 
-  Emails:                 Passwords:<br/>
-1.	admin1@admin.com	      Admin123<br/>
-2. admin2@admin.com	      Admin123<br/>
-3. admin3@admin.com        Admin123<br/>
+* admin1@admin.com:Admin123<br/>
+* admin2@admin.com:Admin123<br/>
+* admin3@admin.com:Admin123<br/>
 
 
-4. user1@user.com          User1234<br/>	
-5. user2@user.com	        User1234<br/>
-6. user3@user.com	        User1234<br/>
-7. user4@user.com          User1234<br/>
+* user1@user.com:User1234<br/>	
+* user2@user.com:User1234<br/>
+* user3@user.com:User1234<br/>
+* user4@user.com:User1234<br/>
