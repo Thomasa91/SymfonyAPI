@@ -42,7 +42,8 @@ class RegisterController extends AbstractController
         } catch(Error $e) {
             return new JsonResponse(["message" => "Something went wrong, try again later"], status: 500);
         }  
-        $user->setRoles(['ROLE_ADMIN']);
+        // Uncomment to register user with admin privileges
+        // $user->setRoles(['ROLE_ADMIN']);
         $user->setKickedOut(false);
         $em = $this->getDoctrine()->getManager();
         
